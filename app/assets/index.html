@@ -1,13 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Webpack</title>
+  <title>Agence de Voyage</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <h1>Hello Webpack!</h1>
+  <div class="wrapper">
+
+    <header class="header">
+
+      <h1 class="header_brand" >Agence de Voyage <span>.</span> </h1>
+
+      <nav class="main_nav">
+        <a href="accueil">Accueil</a>
+        <a href="destinations">Destinations</a>
+        <a href="circuits">Circuits</a>
+        <a href="contact">Contact</a>
+      </nav>
+
+    </header>
+    <div class="bacgr_image">
+      <h2 class="stitre">organizer votre Voyage sur mesure </h2>
+      <button type="submit" class="submit">Par ici</button>
+    </div>
+    <main class="main">
+      
+      <div class="panifier">
+        <img src="../img/stylo.png" alt="" class="icon">
+        <h2 class="organiser" >planifier</h2>
+        
+        <p class="voyager">Confiez-nous vos rêves d'évasion : en famille ou entre amis, nous trouverons la formule qui comblera vos attentes.</p>
+        
+      </div>
+      
+      <div class="panifier">
+        
+        <img src="../img/feuille.png" alt="" class="icon">
+        
+        <h2 class="organiser" >organiser</h2>
+        
+        <p class="voyager">Bénéficiez de l'expertise de nos spécialistes de chaque destination, ils vous accompagnent dans la réalisation de votre voyage.</p>
+      </div>
+      
+      <div class="panifier">
+        
+      <img src="../img/fusee.png" alt="" class="icon">
+        <h2 class="organiser" >voyager</h2>
+        
+        <p class="voyager">Nous nous chargeons d'assurer votre sécurité et de veiller à votre pleine sérénité tout au long de votre voyage.</p>
+      </div>
+
+      <div class="partez">
+        <div class="splite">
+          <h3 class="sousoutitre">Partez en famille</h3>
+          <p class="para">Offrez le meilleur à ceux que vous aimez et partagez des moments fabuleux !</p>
+          <button class="ssbutton">Plus d'infos</button>
+        </div>
+        <div class="splite">
+          <h3 class="sousoutitre">Envie de s'évader</h3>
+          <p class="para">Parfois un peu d'évasion serait le bienvenue et ferait le plus grand bien !</p>
+          <button class="ssbutton">Plus d'infos</button>
+        </div>
+      </div>
+
+      <div class="contact">
+        <h2 class="title">Contactez-nous</h2>
+        <p>Chez Travel Agency nous savons que voyager est une aventure humaine mais également un engagement financier important pour vous. C'est pourquoi nous mettons un point d'honneur à prendre en compte chacune de vos attentes pour vous aider dans la préparation de votre séjour, circuit ou voyage sur mesure.</p>
+
+        <input type="text" name="nom" id="nom" placeholder="votre nom">
+        <input type="email" name="mail" id="mail" placeholder="votre email">
+        <button type="submit">ok</button>
+
+      </div>
+
+    </main>
+    <footer>
+      copyright from éclipse 
+    </footer>
+
+  </div>
+
   <script src="js/app.js"></script>
 </body>
 </html>

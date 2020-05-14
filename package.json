@@ -9,7 +9,7 @@
     "build:prod": "webpack --config webpack.config.prod.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "DanXXXX <nyoungvictoire@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^9.4.7",
@@ -36,5 +36,7 @@
     "latest-version": "^5.1.0",
     "pkg.json": "^2.0.7",
     "reset-css": "^4.0.1"
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:DanXXXX/agence-de-voyage.git"
 }
